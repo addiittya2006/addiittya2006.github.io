@@ -39,42 +39,30 @@ a:focus {
 	transition: background 0.2s linear;
 }
 
-header {
-	padding-left: 0px;
-}
-
 p {
 	padding-left: 0px;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-weight: 400;
 	font-family: "Roboto", sans-serif;
 }
 
-footer {
-	padding: 0px;
-	margin: 0px;
-}
-
 #intro {
-	font-size: 5em;
+	font-size: 3.6em;
 	font-weight: 800;
 	color: #F99A66;
-	padding-top: 20px;
-	padding-bottom: 40px;
 }
 
-.intro-fallback{
-	font-size: 5em;
-	font-weight: 800;
-	color: #F99A66;
+.intro-subtext{
+	font-size: 1.8em;
+	font-weight: 400;
 	padding-top: 0px;
-	padding-bottom: 0px;
 }
 
 #typed-intro{
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 	display:none;
 }
+
 #divider {
 	font-size: 4em;
 	font-weight: 600;
@@ -97,33 +85,22 @@ footer {
 	color: #0095A0;
 }
 
-.row {
-	margin-right: 0px;
-	margin-left: 0px;
-}
-#bio{	
+#bio{
 	display:none;	
-}
-
-#intro,
-#typed-intro,
-#bio {
-	padding-left: 0px;
 }
 
 #divider {
 	padding-top: 30px;
-	padding-left: 0px;
+}
+
+#flag {
+	padding-top: 50px;
+	padding-right: 30px;
 }
 
 .container {
 	margin-left: 100px;
 	margin-right: 100px;
-	padding: 0px;
-}
-
-.col-md-10 {
-	padding: 0px;
 }
 
 #cta {
@@ -134,26 +111,6 @@ footer {
 	font-size: 1.25em;
 }
 
-/* #cta a, */
-/* #cta a:visited { */
-	/* background-color: #0095A0; */
-	/* text-decoration: none; */
-	/* color: #FFF; */
-/* } */
-
-/* #cta a:hover, */
-/* #cta a:active, */
-/* #cta a:focus { */
-	/* background-color: #9FDFEB; */
-	/* text-decoration: none; */
-	/* color: inherit; */
-	/* -webkit-transition: background 0.2s linear; */
-	/* -moz-transition: background 0.2s linear; */
-	/* -ms-transition: background 0.2s linear; */
-	/* -o-transition: background 0.2s linear; */
-	/* transition: background 0.2s linear; */
-/* } */
-
 @media screen and (min-width: 481px) and (max-width: 1024px) {
 	.container {
 		margin-left: 30px;
@@ -161,14 +118,14 @@ footer {
 		padding: 0px;
 	}
 	#intro {
-		font-size: 4.5em;
+		font-size: 2.4em;
 		font-weight: 700;
 		color: #F99A66;
-		padding-top: 30px;
-		padding-bottom: 50px;
 	}
-	.col-md-10{
-		width:95%;
+	.intro-subtext{
+		font-size: 1.2em;
+		font-weight: 600;
+		padding-top: 0px;
 	}
 }
 
@@ -179,13 +136,13 @@ footer {
 		padding: 0px;
 	}
 	#intro {
-		font-size: 3em;
+		font-size: 1.8em;
 		font-weight: 700;
 		color: #F99A66;
-		padding-top: 30px;
-		padding-bottom: 50px;
 	}
-	.col-md-10{
-		width:95%;
+	.intro-subtext{
+		font-size: 1.2em;
+		font-weight: 600;
+		padding-top: 0px;
 	}
 }
